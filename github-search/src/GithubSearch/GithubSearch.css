@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  padding: 10px;
+}
+
+form input, form button {
+  padding: 8px;
+}
+
+form button {
+  margin-left: 4px;
+}
+
+.error {
+  background-color: lightcoral;
+  color: white;
+  font-weight: bold;
+  padding: 4px;
+  max-width: 50%;
+}
+
+.data {
+  width: 85%;
+}
